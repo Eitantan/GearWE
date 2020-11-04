@@ -27,6 +27,7 @@ function link(txt,href) {
 	let link = document.body.appendChild(document.createElement("a"))
 	link.href = href
 	link.innerText = txt
+	return link
 }
 //Test Code
 // element("Hello GearWE!", "h1")
