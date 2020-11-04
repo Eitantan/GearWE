@@ -23,6 +23,11 @@ function img(src,width,height,alt="Made with Gear Web Engine") {
 	elt.height = height
 	return elt
 }
+function link(txt,href) {
+	let link = document.body.appendChild(document.createElement("a"))
+	link.href = href
+	link.innerText = txt
+}
 //Test Code
 // element("Hello GearWE!", "h1")
 // element("Hello GearWE!", "h2")
