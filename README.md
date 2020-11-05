@@ -5,7 +5,10 @@ Gear Web Engine: An open source JS project.
 ## Changelog
 | Version | Stage | Result           |
 |---------|--------------------|------------------|
-| 1.0.0   | Beta  | v1 is now usable |
+| 1.0.0   |  ❌  | ❗Deprecated: Test cases are still in program |
+| 1.1.0 | 👍 | Commented out test cases, ➕ ```<a>``` tag added. |
+| 1.2.0 | ❌ | ❗Deprecated test cases uncommented, ➕ added ```plaintext``` to convert ```<``` to ```&lt```. |
+| 1.2.1 | ✅  | Comment test cases, add plaintext. |
 
 ## Docs
 To start, let's make a simple header.
@@ -57,3 +60,5 @@ Great! We made an image! ...But wouldn't it be cool to make the image when we pr
   })
 ```
 This prompts the user to enter the source url, the width, the height, and then draws the image. And that's all for 1.0.0! Check the [Changelog](https://github.com/Eitantan/GearWE/new/master?readme=1#changelog) for updates.
+
+Contact [me](mailto:eitan.alperstein@gmail.com?subject=New%20Feature%20Request)
